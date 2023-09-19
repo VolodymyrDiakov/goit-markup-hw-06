@@ -12,6 +12,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -464,8 +465,8 @@
             digital marketing & growth solutions.
           </p>
         </div>
-        <div>
-          <p class="paragraph-footer">Social media</p>
+        <div class="footer-box">
+          <p class="paragraph-footer footer-media">Social media</p>
           <ul class="footer-icon-list">
             <li class="svg-list">
               <a href="#" class="svg-list-link footer-hover">
@@ -498,7 +499,7 @@
           </ul>
         </div>
         <div class="subscribe-input">
-          <p class="paragraph-footer">Subscribe</p>
+          <p class="paragraph-footer footer-media">Subscribe</p>
           <form action="#" class="footer-form">
             <label class="subscribe-label">
               <input
@@ -518,7 +519,7 @@
       </div>
     </footer>
     <!-- Backdrop -->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="callback-wrapper">
         <button type="button" class="modal-close">
           <svg width="8" height="8" class="close-icon">
@@ -598,6 +599,78 @@
           </div>
           <button type="submit" class="form-button">Send</button>
         </form>
+      </div>
+    </div>
+
+    <!-- ====== Modal-Menu ===== -->
+
+    <div class="modal-menu">
+      <button type="button" class="modal-close-menu">
+        <svg width="8" height="8" class="close-icon">
+          <use href="./images/icons.svg#icon-close-black"></use>
+        </svg>
+      </button>
+
+      <nav class="modal-navi">
+        <ul class="modal-menu-list">
+          <li class="modal-header-list">
+            <a class="modal-menu-item-color" href="./index.html">Studio</a>
+          </li>
+          <li class="header-list">
+            <a class="modal-menu-item" href="#">Portfolio</a>
+          </li>
+          <li class="header-list">
+            <a class="modal-menu-item" href="#">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="modal-grow">
+        <address class="modal-address">
+          <ul class="modal-adress-list">
+            <li>
+              <a
+                class="modal-adress-item-color"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="modal-adress-item" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="footer-icon-list">
+          <li class="svg-list">
+            <a href="#" class="svg-list-link footer-hover">
+              <svg class="footer-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="svg-list">
+            <a href="#" class="svg-list-link footer-hover">
+              <svg class="footer-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="svg-list">
+            <a href="#" class="svg-list-link footer-hover">
+              <svg class="footer-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="svg-list">
+            <a href="#" class="svg-list-link footer-hover">
+              <svg class="footer-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </body>
